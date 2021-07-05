@@ -1,10 +1,31 @@
-img {
+#pics {
     height: 200px;
     width 200px;
     border-radius: 50%;
     border-style: dotted;
+    border-color: aqua;
 }
-
+.links{
+    display: inline-flex;
+    float: left;
+    padding: 10px;
+    font-family:'Dancing Script', cursive;
+   
+}
+.links:hover{
+    background-color: darkcyan;
+    text-decoration: underline;
+}
+.menu{
+     z-index: 10;
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    color: white;
+    font-size:25px;
+}
 #welcome {
     position: absolute;
     overflow: hidden;
@@ -13,126 +34,115 @@ img {
     top: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(aqua 0%, blue 50%, pink 100%);
+    background: linear-gradient(deeppink 0%, red 50%, violet 100%);
     opacity: 0.9;
-    display: table;
     width: 100%;
     height: 100%;
     z-index: 9;
+    padding-top: 235px;
 }
 
-body {
-    text-align: center;
-    padding-top: 800px;
-}
-
-.welcomeinner {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.line {
-    height: 8px;
+.line{
+     height: 8px;
     width: 100px;
     background-color: black;
     margin: 10px auto;
 }
-
-p {
-    font-size: 20px;
-    max-width: 600px;
-    margin: auto;
+body{
+    text-align: center;
+    padding-top:1000px;
 }
-
-#bio {
-    background: linear-gradient(#dde90a, #12beeb, #fc45f8);
-    padding-top: 50px;
-    padding-bottom: 20px;
-    margin-right: -50px;
-    margin-left: -50px;
-    
+#hobbyname{
+font-size:40px;
+text-decoration: underline;
 }
-
-.menu {
-    z-index: 10;
-    list-style: none;
-/*    position: absolute this code has been removed from C- 59 to bring the menu bar in the center.;*/
-    position: fixed;
-    top: 0px;
-/*    right: 0px;*/
-    cursor: pointer;
-    color: white;
-    font-size: 30px;
-    background-color: deeppink;
-    margin-top: 0px;
-    width: 100%; 
+#bikeimage{
+  height: 300px;
+width 300px;
+     border-radius: 50%;
+    border-style:ridge;
+    border-color: mediumspringgreen;
+}
+p{
+    color: aquamarine;
+    font-size: 25px;
+}
+#bikep{
+    color: crimson;
+}
+#HobbyReviews{
+    background-color: plum;
+    margin-top: -38px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin-left: -8px;
+     margin-right: -8px;
     
 }
-
-.links {
-    display: inline-flex;
-/*    float: left;*/
-    padding: 20px;
-    font-family: "Dancing Script", cursive;
-
-}
-
-.links a:hover  {
-   text-decoration: underline;
-    font-size: 35px;
-    color: darkcyan !important;
-    text-shadow: 2px 2px black;
-}
-
-#name {
-    font-family: 'Cinzel Decorative', cursive;
-font-size: 40px;
-    text-decoration: underline;
-}
-
-#video {
-    background-color: aquamarine;
-
-    padding-bottom: 50px;
-    padding-top: 15px;
-    margin-right: -10px;
-    margin-left: -10px;
-
-}
-
-h1 {
-    font-size: 45px;
-
-}
-
-#work {
-    background-color: crimson;
-    margin-top: -20px;
-    margin-right: -50px;
-    padding-top: 30px;
+#bio{
+    background-color: darkorange;
+    margin-top: -38px;
+    padding-top: 40px;
     padding-bottom: 40px;
-    margin-left: -30px;
-}
-#writings {
-    background-color: chartreuse;
-    padding-top: 30px;
-    padding-bottom: 40px;
-   margin-right: -10px;
-       margin-left: -10px;
-}
-#writings a{
-    font-size: 25px;
-   
-}
-.articles:hover{
-    color:maroon;
-}
-.mailicon h3{
-    display: inline;
-    font-size: 25px;
+    margin-left: -8px;
+     margin-right: -8px;
 }
 .menu a{
-    color: white !important;
-    
+     color: white !important;
+}
+#games img{
+    margin-right: 70px;
+    border: 3px solid crimson;
+    width: 300px;
+    height: 300px;
+}
+#codepic{
+     transition: transform 0.2s; 
+}
+#games img:hover{
+   transform: scale(0.9); 
+}
+#apps{
+    background-color:cadetblue;
+      margin-top: -38px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: -8px;
+     margin-right: -8px;
+    }
+#chatbot{
+    background-color:darkseagreen;
+     margin-top: -38px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: -8px;
+     margin-right: -8px;
+}
+#games{
+    background-color:chartreuse;
+         margin-top: -38px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: -8px;
+     margin-right: -8px;
+}
+#inspiration{
+    background-color: darkgoldenrod;
+       margin-top: -38px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: -8px;
+     margin-right: -8px;
+}
+#lionpic{
+    width: 500px;
+    height:500px;
+    transition: transform 0.2s;
+}
+#lionpic:hover{
+    transform: scale(0.9); 
+}
+#draw{
+    font-size:20;
+    color:azure;
 }
